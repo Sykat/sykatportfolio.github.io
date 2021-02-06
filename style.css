@@ -1,0 +1,100 @@
+@import'utilities.css';
+:root{
+    --a:#17F4D9;
+    --b:#010908;
+    --c:#96D0C9;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+}
+
+header{
+    height: 37rem;
+    padding: 6rem 0;
+    background-color:black;
+    clip-path: polygon(0 0, 100% 0,100% 100%,70% 87%, 0 100%);
+    width: auto;
+    
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--a);
+}
+
+
+header nav .branding{
+    margin-right: 3rem;
+}
+.body .left img{
+    width: 300px;
+}
+.body .right{
+    color: honeydew;
+}
+.body .right h5{
+    font-size: 1.6rem;
+    color: rgb(88, 225, 243);
+    margin-bottom: 0.5rem;
+}
+.body .right h6{
+    font-size: 1rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+.body .right p{
+    line-height: 1.0;
+    margin-bottom: 2rem ;
+}
+
+section{
+    padding: 6rem 0;
+}
+section.about h2{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h2 span{
+    color: rgb(88, 225, 243);
+}
+section.about h4{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Italianno' , sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: blue;
+    line-height: 1.9rem;
+}
+section.about.social{
+    display: flex;
+}
+section.about .social a{
+    background: cadetblue;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-bottom-left-radius: 20;
+    border-top-right-radius: 20;
+    margin-right: 0.6rem;
+}

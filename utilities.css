@@ -1,0 +1,36 @@
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.pb{
+    padding: 0.3rem 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.pb-primary{
+    background: rgb(83, 236, 216);
+    color: black;
+    text-transform: uppercase;
+
+}
+.pb-primary:hover{
+    background: transparent;
+    border-color: rgb(83, 236, 216);
+    color:rgb(83, 236, 216) ;
+}
+.flex-1{
+    flex:1;
+}
+.justify-right{
+    justify-content: center;
+}
